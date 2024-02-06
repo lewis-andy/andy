@@ -105,235 +105,48 @@ body {
 .header-text a:hover {
     background-color: #0056b3; /* Darker blue color on hover */
 }
-/*INTRODUCTION STARTS*/
-.services-mf {
-  background-color: #f8f9fa; /* Background color for the section */
-  padding: 60px 0; /* Adjust padding as needed */
-}
 
-.title-box {
-  margin-bottom: 40px;
-}
-
-.title-a {
-  font-size: 36px;
-  color: black; /* Title color */
-}
-
-.subtitle-a {
-  font-size: 18px;
-  color: black; /* Subtitle color */
-}
-
-.line-mf {
-  width: 30%;
-  height: 3px;
-  background-color: #007bff; /* Line color */
-  margin: 16px auto;
-}
-.title-a {
-    color: lightskyblue;
-
-}
-/*INTRODUCTION ENDS*/
-
-/* SECTION STARTS */
- .section-card {
-        background-color: #fff;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        padding: 20px;
-        margin-bottom: 20px;
-    }
-
-    .section-card h2 {
-        color: #333;
-        font-size: 24px;
-        margin-bottom: 10px;
-    }
-
-    .section-card p {
-        color: #666;
-        font-size: 16px;
-        line-height: 1.6;
-    }
-/*SECTION ENDS*/
-
-/*FOOTER STARTS*/
-  footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            left: 0;
-            opacity: 0;
-            animation: fadeIn 1s ease-in-out forwards, changeColor 6s infinite;
-        }
-
-        footer p {
-            margin: 0;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-        @keyframes changeColor {
-            0%, 100% {
-                background-color: burlywood;
-            }
-            50% {
-                background-color: lightskyblue;
-            }
-        }
-
-/*FOOTER ENDS*/
-/* CSS for the about section */
-.about_section {
-    background-color: #f8f9fa; /* Light gray background */
-    padding: 100px 0; /* Adjust padding as needed */
-}
-
-.about_section .container {
-    position: relative; /* Set container position to relative */
-}
 
 .about_section .row {
-    display: flex;
-    align-items: center; /* Center align items vertically */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_section .img_container .img-box img {
+  width: 100%;
 }
 
 .about_section .detail-box {
-    margin-right: 20px; /* Add margin to create space between image and text */
-}
-
-.about_section .detail-box h2 {
-    color: black; /* Dark text color */
-    font-size: 32px;
+  background-color: #ffffff;
+  padding: 45px 25px;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+  position: relative;
+  margin-left: -45px;
 }
 
 .about_section .detail-box p {
-    color: #666; /* Medium gray text color */
-    font-size: 18px;
-    line-height: 1.6;
+  margin-top: 5px;
 }
 
 .about_section .detail-box a {
-    display: inline-block;
-    background-color: #007bff; /* Blue color for button */
-    color: #fff; /* White text color for button */
-    padding: 10px 20px;
-    font-size: 18px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-span{
-    color: green;
-}
-.about_section .img-box {
- width: 100%; /* Make image container width 100% of parent container */
-    max-width: 400px; /* Limit max width of image container */
-    margin-top: 20px; /* Add margin to separate image from text */
-    display: flex;
-    justify-content: center;
+  display: inline-block;
+  padding: 10px 35px;
+  background-color: #f1db25;
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid transparent;
+  text-transform: uppercase;
 }
 
-.about_section .img-box img {
-    width: 100%; /* Make image width 100% of image container */
-    height: auto; /* Maintain aspect ratio */
-
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-    @media (min-width: 768px) {
-        .about_section .row {
-            flex-direction: row; /* Change flex direction back to row for larger screens */
-        }
-
-        .about_section .detail-box {
-            margin-right: 20px; /* Add margin to create space between image and text */
-            text-align: left; /* Left align text */
-        }
-    }
-    /* CSS for custom-about-section */
-.service_section {
-    display: flex; /* Set display to flex */
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center; /* Center the cards horizontally */
-    gap: 20px; /* Add some space between cards */
+.about_section .detail-box a:hover {
+  background-color: transparent;
+  border-color: #f1db25;
+  color: #f1db25;
 }
 
-.service_section .box {
-    width: 250px; /* Adjust card width based on your design */
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    transition: all 0.3s ease;
-    border-radius: 10px;
-}
-
-.service_section .box .img-box {
-    width: 100px; /* Adjust image box size */
-    height: 100px; /* Adjust image box size */
-    margin: 0 auto;
-}
-
-.service_section .box .img-box img {
-    max-width: 100%;
-    max-height: 100%;
-    transition: transform 0.3s ease;
-}
-
-.service_section .box .detail-box {
-    margin-top: 15px;
-}
-
-.service_section .box .detail-box h5 {
-    font-weight: bold;
-}
-
-.service_section .box .detail-box p {
-    margin: 0;
-}
-
-.service_section .box:hover {
-    background-color: #f9f9f9;
-    transform: translateY(-5px);
-}
-
-.service_section .box:hover .img-box img {
-    transform: scale(1.1);
-}
-
-.service_section .btn-box {
-    width: 100%;
-    margin-top: 25px;
-    text-align: center;
-}
-
-.service_section .btn-box a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #da7426;
-    color: #ffffff;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    text-decoration: none;
-}
-
-.service_section .btn-box a:hover {
-    background-color: #c25d17;
-}
 
 /* bottom container starts.*/
 /* Styles for Info Section */
