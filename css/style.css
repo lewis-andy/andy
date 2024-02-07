@@ -304,20 +304,20 @@ a:focus {
 
 .header-text h2 {
     font-size: 48px;
-    color: #fff; /* White text color */
+    color: #fff;
     margin-bottom: 20px;
 }
 
 .header-text p {
     font-size: 18px;
-    color: #fff; /* White text color */
+    color: #fff;
     margin-bottom: 40px;
 }
 
 .header-text a {
     display: inline-block;
-    background-color: #007bff; /* Blue color for button */
-    color: #fff; /* White text color for button */
+    background-color: #007bff;
+    color: #fff;
     padding: 15px 30px;
     font-size: 18px;
     text-decoration: none;
@@ -326,12 +326,12 @@ a:focus {
 }
 
 .header-text a:hover {
-    background-color: #0056b3; /* Darker blue color on hover */
+    background-color: #0056b3;
 }
 /*INTRODUCTION STARTS*/
 .services-mf {
-  background-color: #f8f9fa; /* Background color for the section */
-  padding: 60px 0; /* Adjust padding as needed */
+  background-color: #f8f9fa;
+  padding: 60px 0;
 }
 
 .title-box {
@@ -340,18 +340,18 @@ a:focus {
 
 .title-a {
   font-size: 36px;
-  color: black; /* Title color */
+  color: black;
 }
 
 .subtitle-a {
   font-size: 18px;
-  color: black; /* Subtitle color */
+  color: black;
 }
 
 .line-mf {
   width: 30%;
   height: 3px;
-  background-color: #007bff; /* Line color */
+  background-color: #007bff;
   margin: 16px auto;
 }
 .title-a {
@@ -411,7 +411,7 @@ a:focus {
 
         @keyframes changeColor {
             0%, 100% {
-                background-color: burlywood;
+                background-color: steelblue;
             }
             50% {
                 background-color: lightskyblue;
@@ -419,40 +419,41 @@ a:focus {
         }
 
 /*FOOTER ENDS*/
+
 /* CSS for the about section */
 .about_section {
-    background-color: #f8f9fa; /* Light gray background */
-    padding: 100px 0; /* Adjust padding as needed */
+    background-color: #f8f9fa;
+    padding: 100px 0;
 }
 
 .about_section .container {
-    position: relative; /* Set container position to relative */
+    position: relative;
 }
 
 .about_section .row {
     display: flex;
-    align-items: center; /* Center align items vertically */
+    align-items: center;
 }
 
 .about_section .detail-box {
-    margin-right: 20px; /* Add margin to create space between image and text */
+    margin-right: 20px;
 }
 
 .about_section .detail-box h2 {
-    color: black; /* Dark text color */
+    color: black;
     font-size: 32px;
 }
 
 .about_section .detail-box p {
-    color: #666; /* Medium gray text color */
+    color: #666;
     font-size: 18px;
     line-height: 1.6;
 }
 
 .about_section .detail-box a {
     display: inline-block;
-    background-color: #007bff; /* Blue color for button */
-    color: #fff; /* White text color for button */
+    background-color: #007bff;
+    color: #fff;
     padding: 10px 20px;
     font-size: 18px;
     text-decoration: none;
@@ -463,37 +464,37 @@ span{
     color: green;
 }
 .about_section .img-box {
- width: 100%; /* Make image container width 100% of parent container */
-    max-width: 400px; /* Limit max width of image container */
-    margin-top: 20px; /* Add margin to separate image from text */
+ width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
 
 .about_section .img-box img {
-    width: 100%; /* Make image width 100% of image container */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    height: auto;
 
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
     @media (min-width: 768px) {
         .about_section .row {
-            flex-direction: row; /* Change flex direction back to row for larger screens */
+            flex-direction: row;
         }
 
         .about_section .detail-box {
-            margin-right: 20px; /* Add margin to create space between image and text */
-            text-align: left; /* Left align text */
+            margin-right: 20px;
+            text-align: left;
         }
     }
     /* CSS for custom-about-section */
 .service_section {
-    display: flex; /* Set display to flex */
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center; /* Center the cards horizontally */
-    gap: 20px; /* Add some space between cards */
+    justify-content: center;
+    gap: 20px;
 }
 
 .service_section .box {
@@ -561,120 +562,120 @@ span{
 /* bottom container starts.*/
 /* Styles for Info Section */
 .info_section {
-    background-color: dodgerblue; /* Set background color */
-    padding: 50px 0; /* Add padding */
+    background-color: dodgerblue;
+    padding: 50px 0;
 }
 
 .info_container {
-    max-width: 1200px; /* Limit container width */
-    margin: 0 auto; /* Center container */
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .info_logo {
-    text-align: center; /* Center the logo */
-    margin-bottom: 20px; /* Add space below logo */
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .info_logo a {
-    font-size: 24px; /* Set font size */
-    color: #333; /* Set font color */
-    text-decoration: none; /* Remove underline */
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
 }
 
 .info_logo a span {
-    color: #da7426; /* Set span color */
+    color: #da7426;
 }
 
 .info_main .row {
-    display: flex; /* Use flexbox for row layout */
-    flex-wrap: wrap; /* Allow columns to wrap on smaller screens */
-    justify-content: space-between; /* Distribute columns evenly */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .info_main .col-md-3 {
-    flex: 0 0 calc(25% - 20px); /* Set column width */
-    margin-bottom: 20px; /* Add space between columns */
+    flex: 0 0 calc(25% - 20px);
+    margin-bottom: 20px;
 }
 
 .info_main h5 {
-    font-size: 18px; /* Set heading font size */
-    font-weight: bold; /* Set font weight */
-    color: #333; /* Set font color */
-    margin-bottom: 10px; /* Add space below heading */
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
 }
 
 .info_main p {
-    font-size: 16px; /* Set paragraph font size */
-    color: #666; /* Set font color */
+    font-size: 16px;
+    color: #666;
 }
 
 .info_link-box ul {
-    list-style: none; /* Remove bullet points */
-    padding: 0; /* Remove default padding */
+    list-style: none;
+    padding: 0;
 }
 
 .info_link-box ul li {
-    margin-bottom: 10px; /* Add space between list items */
+    margin-bottom: 10px;
 }
 
 .info_link-box ul li a {
-    color: #333; /* Set link color */
-    text-decoration: none; /* Remove underline */
+    color: #333;
+    text-decoration: none;
 }
 
 .social_box {
-    text-align: center; /* Center social media icons */
+    text-align: center;
 }
 
 .social_box a {
-    color: #333; /* Set icon color */
-    text-decoration: none; /* Remove underline */
-    margin: 0 10px; /* Add space between icons */
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
 .info_bottom .info_contact .row {
-    align-items: center; /* Center contact info vertically */
+    align-items: center;
 }
 
 .info_bottom .info_contact .row .col-md-3 {
-    text-align: center; /* Center contact info */
+    text-align: center;
 }
 
 .info_bottom .info_contact .row .col-md-3 a {
-    display: block; /* Set links to block level */
-    color: #333; /* Set link color */
-    text-decoration: none; /* Remove underline */
-    margin-bottom: 10px; /* Add space between links */
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;
 }
 
 .info_bottom .info_contact .row .col-md-3 a i {
-    margin-right: 10px; /* Add space between icon and text */
+    margin-right: 10px;
 }
 
 .info_bottom .info_contact .row .col-md-5 {
-    text-align: center; /* Center contact info */
+    text-align: center;
 }
 
 .info_bottom .info_contact .row .col-md-5 a {
-    display: block; /* Set links to block level */
-    color: #333; /* Set link color */
-    text-decoration: none; /* Remove underline */
-    margin-bottom: 10px; /* Add space between links */
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;/
 }
 
 .info_bottom .info_contact .row .col-md-4 {
-    text-align: center; /* Center contact info */
+    text-align: center;
 }
 
 .info_bottom .info_contact .row .col-md-4 a {
-    display: block; /* Set links to block level */
-    color: #333; /* Set link color */
-    text-decoration: none; /* Remove underline */
-    margin-bottom: 10px; /* Add space between links */
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;
 }
 
 .info_bottom .info_contact .row .col-md-4 a i {
-    margin-right: 10px; /* Add space between icon and text */
+    margin-right: 10px;
 }
 
 .info_bottom .info_form {
